@@ -4069,9 +4069,14 @@ export const plugins: PluginInfoBase[] = [
     repo: 'STRUGGLE1999/zotero-ai-notes',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ai-notes-0.4.2.xpi',
+      },
+      {
         targetZoteroVersion: '9',
-        tagName: 'v0.4.1',
-        assetName: 'zotero-ai-notes-0.4.1.xpi',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ai-notes-0.4.2.xpi',
       },
     ],
     tags: [
